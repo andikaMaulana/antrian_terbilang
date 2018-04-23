@@ -1,0 +1,73 @@
+@font-face{
+  font-family: "Digi";
+  src: url('font/DS-DIGIT.TTF');
+}
+@font-face{
+  font-family: "Raleway";
+  src: url('font/raleway.ttf');
+}
+body{
+	background-image: url('bg.jpg');
+}
+#container{
+	border-radius: 5px;
+	position: fixed;
+	width: 500px;
+	height: auto;
+	background-color:#032A33;
+	color: #D8BC7C;
+	top: 50%;
+	left: 50%;
+	margin-top:  -250px;
+	margin-left: -220px;
+	border-bottom: 5px solid black;
+}
+h1{
+    font-size: 40pt;
+    color:red;
+    font-family: Digi;
+    text-align: center;
+  }
+  .btn{
+  border-radius: 5px;
+    border: 0 solid black;
+    background-color: #255965;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	color: #D8BC7C;
+    font-family: Raleway;
+  }
+  .btn:hover{
+    background-color: #44646E;
+  }
+  .kolom-input{
+	  float:left;
+	  padding-left:20px;
+  }
+  #kolom-submit{
+	  border:1px solid grey;
+  }
+  .kolom-input-right{
+	  float:right;
+	  padding-right:20px;
+  }
+  .inputan{
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 200px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Digi;
+  }
+#bg-status{
+  background-color: black;
+  margin:0px;
+  padding: 0px;
+}
+label{
+  font-family: Raleway;
+  font-size: 25pt;
+}
